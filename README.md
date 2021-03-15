@@ -1,9 +1,9 @@
-# lab01- sumador 
-laboratorio 01 introducción a HDL
+# Laboratorio 01 - Introducción a HDL
+## lab01- sumador 1 y 4 bits en Quartus
 
-Alejandro Ojeda Olarte
-
-Juan Jose Herrera Rodriguez
+**Integrantes:
+-Alejandro Ojeda Olarte
+-Juan Jose Herrera Rodriguez
 
 Se descargó el software en Linux y en Windows, Quartus completo, una vez instalado se importó sin inconveniente el archivo sum1bcc_primitive.v clonado del repositorio original, creando un proeycto ayudado por el Project Wizard.
 
