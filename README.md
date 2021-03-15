@@ -1,7 +1,7 @@
 # Laboratorio 01 - Introducción a HDL
 ## lab01- sumador 1 y 4 bits en Quartus
 
-**Integrantes:
+**Integrantes:** 
 
 - Alejandro Ojeda Olarte
 - Juan Jose Herrera Rodriguez
