@@ -1,0 +1,84 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/simulation/modelsim
+vsum1bcc
+Z1 !s110 1615841892
+!i10b 1
+!s100 kbd>86O=0<2:dcRSLWeg_0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[0ik]?j2?<VdoSTnBZ@@N2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1615827979
+8C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/sum1bcc.v
+FC:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/sum1bcc.v
+!i122 1
+L0 1 17
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1615841892.000000
+!s107 C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/sum1bcc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src|C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/sum1bcc.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src
+Z8 tCvgOpt 0
+vSumadorDe4Bits
+!s110 1615841891
+!i10b 1
+!s100 e^Vm:E<c?CTZa97JT9@gj1
+R2
+IHm0^W>mYH1g5Uk1;JU4c_2
+R3
+R0
+w1615841676
+8C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/SumadorDe4Bits.v
+FC:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/SumadorDe4Bits.v
+!i122 0
+L0 1 15
+R4
+r1
+!s85 0
+31
+!s108 1615841889.000000
+!s107 C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/SumadorDe4Bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src|C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/SumadorDe4Bits.v|
+!i113 1
+R6
+R7
+R8
+n@sumador@de4@bits
+vtestbench
+R1
+!i10b 1
+!s100 Z`EVC2D2[L@aFkf:YAFE:0
+R2
+IE8IAF0VH0D743@<a@K8ih1
+R3
+R0
+w1615841367
+8C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/Testbench.v
+FC:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/Testbench.v
+!i122 2
+L0 1 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/Testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src|C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/Testbench.v|
+!i113 1
+R6
+R7
+R8

@@ -1,0 +1,122 @@
+# Reading pref.tcl
+# do SumadorDe4Bits_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src {C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/SumadorDe4Bits.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:58:09 on Mar 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src" C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/SumadorDe4Bits.v 
+# -- Compiling module SumadorDe4Bits
+# 
+# Top level modules:
+# 	SumadorDe4Bits
+# End time: 15:58:12 on Mar 15,2021, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src {C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/sum1bcc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:58:12 on Mar 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src" C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/sum1bcc.v 
+# -- Compiling module sum1bcc
+# 
+# Top level modules:
+# 	sum1bcc
+# End time: 15:58:12 on Mar 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src {C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/Testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:58:12 on Mar 15,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src" C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/Testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 15:58:12 on Mar 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Testbench 
+# Start time: 15:58:12 on Mar 15,2021
+# ** Error: (vsim-3170) Could not find 'Testbench'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/220model
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/sgate
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_mf
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/cycloneive
+#             C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/simulation/modelsim/rtl_work
+#             C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./SumadorDe4Bits_run_msim_rtl_verilog.do PAUSED at line 13
+vsim work.SumadorDe4Bits
+# vsim work.SumadorDe4Bits 
+# Start time: 15:58:12 on Mar 15,2021
+# Loading work.SumadorDe4Bits
+# Loading work.sum1bcc
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'Ci'. The port definition is at: C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/sum1bcc.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /SumadorDe4Bits/s0 File: C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/SumadorDe4Bits.v Line: 9
+add wave -position end  sim:/SumadorDe4Bits/xi
+add wave -position end  sim:/SumadorDe4Bits/yi
+add wave -position end  sim:/SumadorDe4Bits/co
+add wave -position end  sim:/SumadorDe4Bits/zi
+add wave -position end  sim:/SumadorDe4Bits/c1
+add wave -position end  sim:/SumadorDe4Bits/c2
+add wave -position end  sim:/SumadorDe4Bits/c3
+run
+run
+1]2
+# invalid command name "1]2"
+run
+1+2
+# invalid command name "1+2"
+1
+# [1]
+2
+# [2]
+1+2
+# invalid command name "1+2"
+1
+# [1]
+12
+# [12]
+10
+# [10]
+20
+# [20]
+A=1
+# invalid command name "A=1"
+A1
+# invalid command name "A1"
+1
+# [1]
+2
+# [2]
+a
+# ambiguous command name "a": abort actel_edition add addTime add_cmdhelp add_nldataflow_add_menu add_nldataflow_edit_menu add_nldataflow_file_menu add_nldataflow_tools_menu add_nldataflow_trace_menu add_nldataflow_view_menu add_toolbar_button after alias allon altera_edition analysisFileBrowserSave annotate_image announce_title append apply applyToList apply_button_adder applystimulus architecture_image array asrtAdd asrtAddAssertsFromHier asrtAddModuleFromHier asrtChangeHierMode asrtCheckImmediate asrtClearAll asrtClearTriggers asrtConfigDialog asrtContextTracking asrtDoBigCommand asrtDoConfig asrtDoReport asrtDragVerifyItems asrtDropHandler asrtEnableConfigInstance asrtEnableConfigOk asrtEnableInstance asrtEnableLimitEntry asrtEnableOptions asrtEnablePass asrtEnablePathname asrtEnableReportOk asrtEnableTestExtract asrtExclude asrtExcludeWithComment asrtFileBrowserSave asrtGetAllAsrts asrtGetChildrenList asrtGetDefaultConfigSetting asrtGetDisplayRow asrtGetOnlySelAsrts asrtGetSelAsrts asrtGetSelObjs asrtGetTopList asrtHierGetSelections asrtIsSelectionForWave asrtNodeNumElements asrtPopupMenu asrtReportDialog asrtSetAntcdentAction asrtSetBackground asrtSetFailAction asrtSetFailPass asrtSetForeground asrtSetLimitDefault asrtSetOptionDefault asrtSetPassAction asrtSetSelectBackground asrtSetSelectForeground asrtSetSettingsVars asrtSetStartAction asrtSetStringDefault asrtSetTriggers asrtUpdateAll asrtUpdateBrowser asrtValidateConfigInstance asrtValidateConfigOk asrtViewDecl asrtViewModuleSource asrtViewSource assertDefineMenus assertGetData assertResetBrowserData assertion assertion_clock_image assertion_cy_image assertion_message assertion_psl_image assertion_spice_image assertion_verilog_image assertionsShow assertions_destroy atmel_edition autoMap autoRestoreCrashedSchematic auto_execok auto_import auto_load auto_load_index auto_mkindex auto_mkindex_old auto_qualify auto_reset
+s
+# ambiguous command name "s": sampler sbrk scale scaleTime scan sccom sccom_capture scgenmod scope scrollbar sdfcom search searchlog see seek seetime selection send_and_receive sequence_image set setArrayAttributes setCoverageCutoff setFullDesignInfo setMTIArrayProperty setMTIProperty setPartialDesignInfo setStructBackground setStructForeground setStructGeometry setStructSelectBackground setStructSelectForeground setTimeFlags setVSIMClient set_vish_error_count set_vish_warning_count set_vsim_state set_window_namespace set_windowobj_namespace setenv settings0 shape shift show showAssertion showFCover siginterror signals_subelement_split sim_image slave_mode sm smodule_image socket source source_examine_popup source_highlight_errors spice_du_image spinbox split splitio sqlite sqlite3 stCopy stCut stDelete stPaste startIndProgressBar starter status statusIntHandler step stimulus_image stop stopIndProgressBar stop_image string string'reverse strncmp structure_binding structure_changed_trigger structure_clear_triggers structure_click_env structure_context_trigger structure_dataset_close structure_destroy structure_image structure_is_follow structure_new_root_dialog structure_restart structure_restart_context structure_restart_prep structure_set_root structure_set_selection structure_set_triggers structure_update_procs_after_run student_edition subTime subst suppress sva_cover_image sva_coverbin_image swapSeparators switch sync_encoding systemc_image systemcdu_image systemclib_image
+1
+# [1]
++
+# invalid command name "+"
+
+-
+# invalid command name "-"
+{
+}
+# invalid command name "
+# "
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/alejo/Documents/UN/Digital/Lab/lab00-aojedao/hdl/src/simulation/modelsim/wave.do
+# End time: 16:04:36 on Mar 15,2021, Elapsed time: 0:06:24
+# Errors: 1, Warnings: 1
